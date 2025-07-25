@@ -13,8 +13,8 @@ df = pd.DataFrame(data)
 new_row_loc = {'Name': 'V2', 'Age': 20, 'City':'City1'}
 df.loc[len(df.index)] = new_row_loc
 
-# new_row_loc2 = {'Name': 'V3', 'Age': 30, 'City':'City1'}
-#df.loc[len(df.inddex)] = new_row_loc2
+new_row_loc2 = {'Name': 'V3', 'Age': 30, 'City':'City2'}
+df.loc[len(df.index)] = new_row_loc2
 
 #ensure the "data" directory exists at a root level
 data_dir = "data" #here we are creating a directory named data and are storing in a name data_dir
